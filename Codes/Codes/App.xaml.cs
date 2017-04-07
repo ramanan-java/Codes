@@ -13,7 +13,7 @@ namespace Codes
         {
             InitializeComponent();
 
-            MainPage = new Codes.MainPage();
+            MainPage = new NavigationPage(new Codes.View.MainPage());
         }
 
         protected override void OnStart()

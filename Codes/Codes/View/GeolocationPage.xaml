@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Codes.View.GeolocationPage"
+             Title="Geolocation">
+    <StackLayout Orientation="Vertical">
+        <Label x:Name="lblStatus" Text="Status: " />
+        <Label x:Name="lblLatitude" Text="Latitude: " />
+        <Label x:Name="lblLongitude" Text="Longitude: " />
+    </StackLayout>
+</ContentPage>
