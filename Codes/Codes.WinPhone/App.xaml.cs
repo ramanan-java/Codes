@@ -68,6 +68,7 @@ namespace Codes.WinPhone
                 rootFrame.Language = Windows.Globalization.ApplicationLanguages.Languages[0];
 
                 Xamarin.Forms.Forms.Init(e);
+                Xamarin.FormsMaps.Init("Ap0B9LP4X9NME2tA0AP9yRjE0L-vwJTT9l1Z01Q6Vo1dGno7Tmu-WSjN4c-xvkvma");
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {

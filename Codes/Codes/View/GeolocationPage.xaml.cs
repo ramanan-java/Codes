@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
 
 namespace Codes.View
@@ -35,6 +36,9 @@ namespace Codes.View
                 lblStatus.Text = "Status: " + position.Timestamp;
                 lblLatitude.Text = "Latitude: " + position.Latitude;
                 lblLongitude.Text = "Longitude: " + position.Longitude;
+
+                map.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(position.Latitude, position.Longitude), Distance.FromMiles(1)));
+                map.IsShowingUser = true;
             }
             catch (Exception ex)
             {

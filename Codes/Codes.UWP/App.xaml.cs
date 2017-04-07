@@ -59,6 +59,7 @@ namespace Codes.UWP
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
                 Xamarin.Forms.Forms.Init(e);
+                Xamarin.FormsMaps.Init("bwrzJ74fd0g2p7xRUyAn~vjBlPSDYWncBGe2w12KQeg~AjeGOdIVtb_L_6NOyek_WAKW9Liq6I6TEGg15O8UKxF-XWVUHu2H5XFvaJZBW4seX");
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {
