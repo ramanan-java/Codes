@@ -30,6 +30,9 @@ namespace Codes.View
                 case 0:
                     Navigation.PushAsync(new GeolocationPage());
                     break;
+                case 1:
+                    Navigation.PushAsync(new PDFPage());
+                    break;
             }
         }
     }
