@@ -4,8 +4,9 @@
              xmlns:local="clr-namespace:Codes"
              x:Class="Codes.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout Orientation="Vertical"
+                 Padding="10">
+        <Button Text="OPEN PDF" />
+    </StackLayout>
 
 </ContentPage>
